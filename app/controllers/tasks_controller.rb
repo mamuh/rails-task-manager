@@ -6,7 +6,6 @@ class TasksController < ApplicationController
   end
 
   def show
-    # @task = Task.find(params[:id])
   end
 
   def new
@@ -20,7 +19,6 @@ class TasksController < ApplicationController
   end
 
   def edit
-
   end
 
   def update
@@ -29,7 +27,6 @@ class TasksController < ApplicationController
   end
 
   def destroy
-    # @task = Task.find(params[:id])
     @task.destroy
     redirect_to tasks_path
   end
